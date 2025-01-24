@@ -46,7 +46,7 @@ class Truck extends Vehicle implements AbleToTow {
     // TODO: The constructor should call the constructor of the parent class, Vehicle
     // TODO: The constructor should initialize the properties of the Truck class
     // TODO: The constructor should check if the wheels array has 4 elements and create 4 new default Wheel objects if it does not
-    if (wheels.length i == 4) {
+    if (wheels.length ! == 4) {
       this.wheels = [new Wheel(), new Wheel(), new Wheel(), new Wheel(),];
     } else {
       this.wheels = wheels;
@@ -79,10 +79,10 @@ class Truck extends Vehicle implements AbleToTow {
     Make: ${this.make}
     Model: ${this.model}
     Year: ${this.year}
-    Weight: ${this.weight} kg
-    Top Speed: ${this.topSpeed} km/h
+    Weight: ${this.weight}
+    Top Speed: ${this.topSpeed}
     Color: ${this.color}
-    Towing Capacity: ${this.towingCapacity} kg
+    Towing Capacity: ${this.towingCapacity}
     Wheels: ${this.wheels.length} wheels`);
 }
 }
