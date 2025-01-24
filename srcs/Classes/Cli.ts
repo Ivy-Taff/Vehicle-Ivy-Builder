@@ -12,7 +12,6 @@ class Cli {
   selectedVehicleVin: string | undefined;
   exit: boolean = false;
   // TODO: You will need to use the Union operator to define additional types for the array
-
   // TODO: See the AbleToTow interface for an example of how to use the Union operator
   interface AbleToTow {
     // declare the properties

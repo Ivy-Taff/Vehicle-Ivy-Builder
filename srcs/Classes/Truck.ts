@@ -85,7 +85,7 @@ class Truck extends Vehicle implements AbleToTow {
     Towing Capacity: ${this.towingCapacity}
     Wheels: ${this.wheels.length} wheels`);
 }
-}
+
 
 // Export the Truck class as the default export
 export default Truck;
